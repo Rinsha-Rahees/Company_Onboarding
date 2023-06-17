@@ -7,7 +7,7 @@ function Header() {
         <img className='dv_logo' src='http://dialogview.millenniumci.net/wp-content/uploads/2023/05/dialogview-contact-center-solution.png'
         alt=''/>
 
-        <button className='startBtn'><span>Let's go</span></button>
+        <button className='startBtn'><span>Get Started</span></button>
     </div>
   )
 }

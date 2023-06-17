@@ -1,0 +1,74 @@
+.botanimation{
+    height: auto;
+    width: 100%;
+    align-items: center;
+}
+.animation_container{
+    background-color: #fff;
+    position: absolute;
+    display: flex;
+    float: left;
+    padding: 10px;
+    top: 60px;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.bot{
+    height: 400px;
+    width: 350px;
+    position: relative;
+    left: 20px;
+    border-radius: 100px;
+    margin-left: 10%;
+}
+
+.bot_conversation_container{
+    width: fit-content;
+    min-width: fit-content;
+    height: fit-content;
+    position: relative;
+    left: 60px;
+    top: -10px;
+    display: grid;
+    padding: 20px;
+}
+
+.bot_conversation_container p{
+    overflow: hidden; 
+    white-space: nowrap; 
+    letter-spacing: .05em; 
+    animation: typing 2.5s steps(40, end);
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+.bot_convo{
+    border: 1px solid none;
+    font-weight: 400;
+    background-color: #dee2e6;
+    height: fit-content;
+    width: fit-content;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+    border-radius: 0 50px 50px 35px;
+    position: relative;
+    top: 30px;
+    font-weight: 600;
+
+    animation: mymove 3s;
+}
+
+@keyframes mymove {
+    from {top: 70px;}
+    to {top: 30px;}
+}
+
+.convo3{
+    font-size: 1.2rem;
+    color: #ff4500;
+}

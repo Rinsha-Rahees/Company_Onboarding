@@ -1,9 +1,7 @@
 .header{
     height: 60px;
     width: 100%;
-    background-color: #fff;
-    transition-timing-function: ease-in;
-    transition: all 0.5s;
+    background-color: #f8f8f8;
     position: fixed;
     top: 0;
     z-index: 1;
@@ -19,7 +17,7 @@
 .startBtn{
     padding: 10px;
     height: 40px;
-    width: 130px;
+    width: fit-content;
     position: absolute;
     right: 25px;
     top: 10px; 
