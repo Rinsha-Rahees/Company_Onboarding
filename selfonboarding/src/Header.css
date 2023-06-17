@@ -1,0 +1,63 @@
+.header{
+    height: 60px;
+    width: 100%;
+    background-color: #f8f8f8;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.dv_logo{
+    padding: 10px;
+    height: 40px;
+    position: absolute;
+    left: 10px;  
+}
+
+.startBtn{
+    padding: 10px;
+    height: 40px;
+    width: fit-content;
+    position: absolute;
+    right: 25px;
+    top: 10px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #404c53;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+
+.startBtn:hover{
+    background-color: #e50914;
+}
+
+.startBtn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+.startBtn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .startBtn:hover span {
+    padding-right: 20px;
+    height: 50px;
+  }
+  
+  .startBtn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

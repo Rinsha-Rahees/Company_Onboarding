@@ -1,0 +1,15 @@
+.header{
+    height: 60px;
+    width: 100%;
+    background-color: #f8f8f8;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.dv_logo{
+    padding: 10px;
+    height: 40px;
+    position: absolute;
+    left: 10px;   
+}

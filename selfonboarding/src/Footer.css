@@ -1,0 +1,57 @@
+.footer{
+    height: fit-content;
+    width: 100%;
+    background-color: #404c53;
+    position: relative;
+    top: 60px;
+    z-index: -1;
+    display: flex;
+    float: left;
+}
+
+.footer_tagline{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    float: left;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5rem;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+
+.footer_contact{
+    height: fit-content;
+    width: 100%;
+    display: grid;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.3rem;
+    position: relative;
+    left: 400px;
+    top: 0px;
+    text-align: left;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.company_info{
+    list-style-type: none;
+}
+
+.company_info li{
+    padding: 5px;
+}
+
+.copyright{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    float: left;
+    color: #fff;
+    position: relative;
+    top: 150px;
+    right: 600px;
+}
