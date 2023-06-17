@@ -19,6 +19,7 @@ function FeaturesDesc() {
             </div>
             <div className='conference_details'>
                 <p className='conference_title'>Conferencing Solution</p>
+                <span className='nectar-scribble basic-underline'></span>
                 <p className='conference_desc'>Dialogview's Conferencing Solution offers a seamless, easy-to-use platform that enhances team collaboration, streamlines meetings and drives innovation.</p>
             </div>
         </div>

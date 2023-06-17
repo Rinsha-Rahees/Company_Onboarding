@@ -12,7 +12,7 @@ function Homepage() {
       <Header/>
       <BotAnimation/>
       <FeaturesDesc/>
-      {/* <Footer/> */}
+      <Footer/>
 
     </div>
   )

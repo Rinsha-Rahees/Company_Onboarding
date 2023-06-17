@@ -9,11 +9,13 @@ function BotAnimation() {
             <img className='bot' src='https://webchat-qa.dialogview.ai/assets/bot-gif.gif' alt=''/>
 
             <div className='bot_conversation_container'>
-                <span className='bot_convo convo1'><p>Welcome! Happy to see you here.</p></span>
-                <span className='bot_convo convo2'><p>Let me take you through the key features of DialogView.</p></span>
-                <span className='bot_convo convo3'>
-                    <p>DialogView Contact Centre & DialogView Conferencing.</p>
-                </span>   
+              <div className='first'>
+                <span>Welcome! Happy to see you here. Let me take you through the key features of DialogView:</span><br/>
+              </div>
+              <div className='second'> 
+                <span className='feature_headline'>DialogView Contact Centre & DialogView Conferencing.</span>
+              </div>
+                
             </div>
         </div>
     </div>
