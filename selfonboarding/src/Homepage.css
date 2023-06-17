@@ -1,0 +1,66 @@
+.homepage{
+    height: auto;
+    width: 100%;
+}
+
+.animation_container{
+    background-color: #fff;
+    position: absolute;
+    display: flex;
+    float: left;
+    padding: 10px;
+    top: 100px;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.bot{
+    height: 400px;
+    width: 350px;
+    position: relative;
+    left: 20px;
+    border-radius: 100px;
+}
+
+.bot_conversation_container{
+    width: fit-content;
+    min-width: fit-content;
+    height: auto;
+    position: relative;
+    left: 40px;
+    top: 20px;
+    display: grid;
+}
+
+.bot_convo{
+    border: 1px solid none;
+    font-weight: 400;
+    background-color: #dee2e6;
+    height: fit-content;
+    width: fit-content;
+    padding: 0 20px;
+    margin-top: 10px;
+    border-radius: 0 50px 50px 35px;
+    position: relative;
+    top: -50px;
+}
+
+.convo2_hide{
+    visibility: hidden;
+}
+
+.bot_conversation_container p{
+    height: fit-content;
+    width: fit-content;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    letter-spacing: .05em; 
+    animation: 
+    typing 2.5s steps(40, end) 
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }

@@ -1,7 +1,12 @@
 .header{
     height: 60px;
     width: 100%;
-    background-color: #f8f8f8;
+    background-color: #fff;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
 
 .dv_logo{
@@ -26,11 +31,11 @@
     font-weight: 600;
     font-size: 1.1rem;
     transition: all 0.5s;
+    text-decoration: none
 }
 
 .startBtn:hover{
-    background-color: #ff6b3d;
-    
+    background-color: #e50914;
 }
 
 .startBtn span {
