@@ -6,10 +6,16 @@
     z-index: 1;
 }
 
+.logo_header{
+    height: 40px;
+    padding: 5px;
+    padding-left: 1dvb;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: #f8f8f8;
+}
+
 .DVlogo{
-    padding: 10px;
-    height: 45px;
-    width: fit-content;
-    position: absolute;
-    left: 10px;  
+    height: 30px;
 }

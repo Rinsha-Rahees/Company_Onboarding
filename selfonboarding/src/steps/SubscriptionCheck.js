@@ -13,7 +13,7 @@ function SubscriptionCheck() {
     <div className='subscriptionCheck'>
 
       <div className="contactCard">
-        <h3>Contact Center</h3>
+        <h1>Contact Center</h1>
       </div>
       <div className="conferenceCard">
 
