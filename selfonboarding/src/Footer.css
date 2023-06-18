@@ -3,7 +3,7 @@
     width: 100%;
     background-color: #404c53;
     position: relative;
-    top: 60px;
+    top: 35px;
     z-index: -1;
     display: flex;
     float: left;
@@ -39,6 +39,7 @@
 
 .company_info{
     list-style-type: none;
+    margin: 10px 0px;
 }
 
 .company_info li{
