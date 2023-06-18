@@ -71,7 +71,7 @@ const Stepper = ({steps, currentStep}) => {
       
         <div key={index} 
         className={index != newStep.length -1 ? "w-full flex items-center" : "flex items-center"}>
-          <div className="relative flex flex-col bottom-8 items-center text-dv-grey">
+          <div className="relative flex flex-col bottom-18 items-center text-dv-grey">
               <div className={`rounded-full transition duration-500 ease-in-out
                 border-2 border-dv-grey h-8 w-8 flex items-center justify-center 
                 ${step.selected ? "text-dv-grey font-bold border-2 border-dv-orange" : "" } || ${step.completed ? "bg-dv-orange border-dv-orange" : "" } `}>
@@ -84,7 +84,7 @@ const Stepper = ({steps, currentStep}) => {
                 {step.description}
               </div>
             </div>
-            <div className={`relative bottom-8 flex-auto border-t-2 transition duration-500 
+            <div className={`relative bottom-18 flex-auto border-t-2 transition duration-500 
             ease-in-out
             ${step.completed ? "border-dv-orange" : "border-gray-300" } `}>
              {/* Display line */} 

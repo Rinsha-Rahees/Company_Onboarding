@@ -9,6 +9,7 @@
 .DVlogo{
     padding: 10px;
     height: 45px;
+    width: fit-content;
     position: absolute;
     left: 10px;  
 }

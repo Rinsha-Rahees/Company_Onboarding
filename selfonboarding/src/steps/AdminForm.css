@@ -1,0 +1,17 @@
+.adminForm{
+    height: 600;
+    width: 100%;
+    position:absolute;
+    left: 0px;
+    top: 150px;
+}
+
+.admin_left_container{
+    position: absolute;
+    left: 150px;
+}
+
+.admin_right_container{
+    position: absolute;
+    left: 260px;
+}

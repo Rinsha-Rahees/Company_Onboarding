@@ -1,0 +1,15 @@
+.subscriptionCheck{
+    height: fit-content;
+    min-height: 200%;
+    width: 100%;
+}
+
+.contactCard{
+    border: 1px solid gray;
+    height: fit-content;
+    min-height: fit-content;
+    width: 300px;
+    position: relative;
+    left: 50px;
+    margin-bottom: 100px;
+}

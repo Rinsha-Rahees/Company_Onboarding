@@ -1,42 +1,40 @@
 .companyForm{
-    height: auto;
+    height: 600;
     width: 100%;
     position:absolute;
-    left: -5px;
+    left: 0px;
     top: 150px;
+}
+
+.left_container{
+    position: absolute;
+    left: 20px;
 }
 
 .center_container{
     position: absolute;
-    left: 50px;
+    left: 80px;
 }
 
 .profile_circle{
-    border: 1px solid;
+    border: 1px solid grey;
     height: 200px;
     width: 200px;
     border-radius: 50%;
     position: absolute;
-    right: 100px;
-    top: -50px;
-}
-
-.comanyLogo{
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    right: 30px;
+    right: 80px;
     top: 20px;
 }
 
-.add_icon{
-    width: 500px;
-    height: 500px;
-    position: absolute;
-    right: 30px;
-    top: 20px;
+.profile_circle:hover{
+    border: 1px solid #ff4500;
 }
 
-.delete_icon{
-    
+.logo_upload{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 70px;
+    top: 70px;
 }
+

@@ -9,7 +9,7 @@ function CompanyForm() {
     setUserData({...userData, [name]: value});
   }
   return (
-     <div className="companyForm relative flex flex-col float-left w-98">
+    <div className="companyForm relative flex flex-col float-left w-98">
 
       <div className="left_container">
         <div className="containers grid absolute w-96"> 
@@ -72,12 +72,8 @@ function CompanyForm() {
 
       <div className="right_container">
         <div className="profile_circle">
-          <img className='comanyLogo'
-          src='https://agent.qa.thebanknet.com/agent/api/v1/commons/s3/chat-bubble.png' alt=''/>
-        </div>
-        <div className="icons">
-          <span className="add_icon">&#x2b;</span>
-          <span className="delete_icon"></span>
+          <img className='logo_upload'
+          src="https://cdn-icons-png.flaticon.com/128/8065/8065934.png" alt=''/>
         </div>
       </div>
 
