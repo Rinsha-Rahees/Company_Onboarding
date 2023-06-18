@@ -9,8 +9,6 @@
     float: left;
     top: 35px;
     left: 0px;
-
-    background-color: #e50914;
 }
 
 .contact_centre_container, .conference_container{
@@ -33,13 +31,13 @@
 .contact_centre_details{
     width: 650px;
     top: 50px;
-    left: 50px;
+    left: 40px;
 }
 
 .conference_details{
     width: 600px;
     top: 50px;
-    left: 200px;
+    left: 140px;
 }
 
 .contact_centre_title, .conference_title{
@@ -64,12 +62,12 @@
 }
 
 .contact_centre_img{
-    left: 160px;
+    left: 100px;
     width: 450px;
 }
 
 .conference_img{
-    left: 30px;
+    left: 40px;
     height: 300px;
     width: 500px;
 }
@@ -97,27 +95,52 @@
 }
 
 .startBtnBottom span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
+   cursor: pointer;
+   display: inline-block;
+   position: relative;
+   transition: 0.5s;
+}
 
 .startBtnBottom span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
+   content: '\00bb';
+   position: absolute;
+   opacity: 0;
+   top: 0;
+   right: -20px;
+   transition: 0.5s;
+}
   
-  .startBtnBottom:hover span {
-    padding-right: 20px;
-  }
+ .startBtnBottom:hover span {
+   padding-right: 20px;
+ }
   
-  .startBtnBottom:hover span:after {
+.startBtnBottom:hover span:after {
     opacity: 1;
     right: 0;
-  }
+ }
 
+.arrow {
+  border: solid #404c53;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px; 
+  height: 50px;
+  width: 50px;
+  position: relative;
+  top:100px;
+  left: 50px;
+
+  animation: moveright 3.5s infinite;
+
+}
+
+.right{
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+@keyframes moveright{
+    from{ left : 20px }
+    to{ left: 60px } 
+}
+  
