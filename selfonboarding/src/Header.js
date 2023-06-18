@@ -5,7 +5,7 @@ function Header() {
 
 
   const loadReg = () => {
-    // window.location.href = 'http://www.google.com';
+    // window.location.assign = 'http://www.google.com';
   }
 
   return (
@@ -13,7 +13,7 @@ function Header() {
         <img className='dv_logo' src='http://dialogview.millenniumci.net/wp-content/uploads/2023/05/dialogview-contact-center-solution.png'
         alt=''/>
 
-        <button className='startBtn' onClick={() => loadReg()}><span>Get Started</span></button>
+        <button className='startBtn'><span><a href='http://localhost:3000/registration'>Get Started</a></span></button>
     </div>
   )
 }

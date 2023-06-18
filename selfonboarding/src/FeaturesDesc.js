@@ -27,7 +27,7 @@ function FeaturesDesc() {
                 <p className='conference_desc'>Dialogview's Conferencing Solution offers a seamless, easy-to-use platform that enhances team collaboration, streamlines meetings and drives innovation.</p>
             </div>
         </div>
-        <button className='startBtnBottom'><span>Get Started</span></button>
+        <button className='startBtnBottom'><a href='http://localhost:3000/registration'><span>Get Started</span></a></button>
     </div>
   )
 }
