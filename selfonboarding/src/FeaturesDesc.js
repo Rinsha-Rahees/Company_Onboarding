@@ -9,6 +9,8 @@ function FeaturesDesc() {
                 <p className='contact_centre_title'>Contact Centre Solution</p>
                 <p className='contact_centre_desc'>Our Contact Center Solution seamlessly integrates all your communication channels, ensuring efficient management and improved customer satisfaction. Additionally, our Conferencing Solution revolutionizes remote collaboration, ensuring your meetings run smoothly, no matter where your team is located.</p>
             </div>
+            <span className='arrow right'></span>
+            <span className='arrow right'></span>
             <div className='contact_centre_img'>
                 <img className='feature_img' src='https://onboarding-dev.dialogview.ai/static/media/dialogview-screen-1-scaled.186e63de8ce53d229797.jpg' alt=''/>
             </div>
@@ -17,13 +19,15 @@ function FeaturesDesc() {
             <div className='conference_img'>
                 <img className='feature_img' src='https://onboarding-dev.dialogview.ai/static/media/dialogview-conferencing-1-1.5b0723d0c27d087ffa5b.png' alt=''/>
             </div>
+            <span className='arrow right'></span>
+            <span className='arrow right'></span>
             <div className='conference_details'>
                 <p className='conference_title'>Conferencing Solution</p>
                 <span className='nectar-scribble basic-underline'></span>
                 <p className='conference_desc'>Dialogview's Conferencing Solution offers a seamless, easy-to-use platform that enhances team collaboration, streamlines meetings and drives innovation.</p>
             </div>
         </div>
-        <button className='startBtnBottom'><span>Get Started</span></button>
+        <button className='startBtnBottom'><a href='http://localhost:3000/registration'><span>Get Started</span></a></button>
     </div>
   )
 }

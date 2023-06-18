@@ -9,18 +9,18 @@
 
 .dv_logo{
     padding: 10px;
-    height: 40px;
+    height: 60px;
     position: absolute;
     left: 10px;  
 }
 
 .startBtn{
     padding: 10px;
-    height: 40px;
+    height: 45px;
     width: fit-content;
     position: absolute;
     right: 25px;
-    top: 10px; 
+    top: 8px; 
     border: none;
     border-radius: 5px;
     cursor: pointer;

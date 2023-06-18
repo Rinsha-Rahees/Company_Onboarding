@@ -1,0 +1,8 @@
+.form{
+    min-height: 730px;
+    height: fit-content;
+    width: 90%;
+    position: relative;
+    top: 10px;
+    background-color: #f1f5f9; 
+}
