@@ -1,17 +1,78 @@
 .subscriptionCheck{
     height: fit-content;
-    min-height: 200%;
+    min-height: 230%;
     width: 100%;
-    
+    position: relative;
+}
+
+.subscription_container{
+    position: relative;
+    left: 100px;
+}
+
+.contactCard, .conferenceCard{
+    border: 1px solid #c5e0fa;
+    box-shadow: 0px 0px 60px 5px #faefe0 inset;
+    border-radius: 20px;
+    height: fit-content;
+    min-height: 430px;
+    width: 340px;
+    background-color: #fff;
+    padding-top: 20px;
+    color: #404c53;
+    align-items: center;
+    justify-content: center;
 }
 
 .contactCard{
-    border: 1px solid gray;
-    border-radius: 20px;
-    height: fit-content;
-    min-height: 400px;
-    width: 300px;
     position: relative;
-    left: 50px;
-    margin-bottom: -300px;
+    left: 20px;
+    margin-bottom: -270px;
 }
+
+.conferenceCard{
+    position: relative;
+    left: 580px;
+    bottom: 160px;
+    margin-bottom: -440px;
+}
+
+.subscription_head{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.product_features{
+    font-size: 1rem;
+    list-style:disc inside;
+    margin: 10px 0px;
+    text-align: left;
+    padding-left: 50px;
+    font-weight: 500;
+}
+
+.product_features li{
+    padding-top: 5px;
+}
+
+.subscribe_btn{
+    height: 40px;
+    width: 150px;
+    background-color: #ee6a3a;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.subscribe_btn:hover{
+    -ms-transform: scale(1); /* IE 9 */
+    -webkit-transform: scale(1); /* Safari 3-8 */
+    transform: scale(1.04);
+    transition: .4s ease-in-out;
+    background-color: #ff4500;
+}
+
+
+
+
