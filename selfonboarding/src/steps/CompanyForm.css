@@ -1,0 +1,42 @@
+.companyForm{
+    height: auto;
+    width: 100%;
+    position:absolute;
+    left: -5px;
+    top: 150px;
+}
+
+.center_container{
+    position: absolute;
+    left: 50px;
+}
+
+.profile_circle{
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    right: 100px;
+    top: -50px;
+}
+
+.comanyLogo{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
+.add_icon{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
+.delete_icon{
+    
+}

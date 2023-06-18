@@ -17,15 +17,16 @@ const Stepper = ({steps, currentStep}) => {
           ...newSteps[count],
           highlighted: true,
           selected: true,
-          completed: true
+          completed: false
         }
         count++;
       }
+
       //step completed
       else if(count < stepNumber){
         newSteps[count] = {
           ...newSteps[count],
-          highlighted: false,
+          highlighted: true,
           selected: true,
           completed: true
         }
@@ -69,26 +70,21 @@ const Stepper = ({steps, currentStep}) => {
     return (
       
         <div key={index} 
-        className={index != newStep.length -1 ? 
-        "w-full flex items-center" : "flex items-center"}>
-          <div className="relative flex flex-col items-center text-gray-400">
+        className={index != newStep.length -1 ? "w-full flex items-center" : "flex items-center"}>
+          <div className="relative flex flex-col bottom-8 items-center text-dv-grey">
               <div className={`rounded-full transition duration-500 ease-in-out
-              border-2 border-dv-grey h-8 w-8 flex items-center justify-center py-3 
-              ${step.selected ? "bg-dv-orange text-white font-bold border border-dv-orange" : "" }`}>
+                border-2 border-dv-grey h-8 w-8 flex items-center justify-center 
+                ${step.selected ? "text-dv-grey font-bold border-2 border-dv-orange" : "" } || ${step.completed ? "bg-dv-orange border-dv-orange" : "" } `}>
                 {/* display number */}
-                {step.completed ? (
-                  <span className="text-white font-bold text-xl">&#10003;</span>
-                ) : (
-                  index + 1
-                ) }
+                {step.completed ? ( <span className="text-white font-bold text-xl">&#10003;</span> ) : (index + 1) }
               </div>
-              <div className={`absolute top-0 text-center mt-12 w-32 text-xs font-medium uppercase
+              <div className={`absolute text-center mt-10 w-44 text-xs font-medium uppercase
               ${step.highlighted ? "text-dv-grey" : "text-gray-400" }`}>
                 {/* display desc */}
-                Description
+                {step.description}
               </div>
             </div>
-            <div className={`flex-auto border-t-2 transition duration-500 
+            <div className={`relative bottom-8 flex-auto border-t-2 transition duration-500 
             ease-in-out
             ${step.completed ? "border-dv-orange" : "border-gray-300" } `}>
              {/* Display line */} 

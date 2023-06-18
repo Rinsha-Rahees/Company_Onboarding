@@ -1,6 +1,9 @@
 .form{
-    height: auto;
-    position: relative;
+    min-height: 550px;
+    height: fit-content;
+    width: 90%;
+    position: absolute;
     top: 60px;
+    left: 70px;
     background-color: #f1f5f9;
 }

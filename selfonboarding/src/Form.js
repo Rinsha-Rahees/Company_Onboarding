@@ -40,11 +40,11 @@ function Form() {
   }
 
   return (
-    <div className="form md:w-1/2 mx-auto shadow-xl rounded-2xl pb-2 bg-white">
+    <div className="form md:w-1/2 mx-auto shadow-xl rounded-2xl pb-2 bg-white px-5">
 
         {/* Stepper */}
 
-        <div className="container horizontal mt-5">
+        <div className="container horizontal mt-10 h-auto w-full">
             <Stepper
               steps={steps}
               currentStep={currentStep}
@@ -52,7 +52,7 @@ function Form() {
         </div>
         
         {/* Display Components*/}
-        <div className="my-10 p-10">
+        <div className="my-10 p-5">
           <StepperContext.Provider value={{
             userData,
             setUserData,
@@ -63,6 +63,7 @@ function Form() {
           </StepperContext.Provider>
         </div>
         {/* Nav Controls */}
+        
         <StepperControl
           handleClick={handleClick}
           currentStep={currentStep}
