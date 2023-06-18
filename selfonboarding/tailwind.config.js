@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       colors: {
         'dv-orange': '#ff4500',
+        'dv-grey': '#404c53'
       },
     },
   },
