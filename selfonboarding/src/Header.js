@@ -10,8 +10,8 @@ function Header() {
 
   return (
     <div className='header'>
-        <img className='dv_logo' src='http://dialogview.millenniumci.net/wp-content/uploads/2023/05/dialogview-contact-center-solution.png'
-        alt=''/>
+        <a href='http://localhost:3000/'><img className='dv_logo' src='http://dialogview.millenniumci.net/wp-content/uploads/2023/05/dialogview-contact-center-solution.png'
+        alt=''/></a>
 
         <button className='startBtn'><span><a href='http://localhost:3000/registration'>Get Started</a></span></button>
     </div>
